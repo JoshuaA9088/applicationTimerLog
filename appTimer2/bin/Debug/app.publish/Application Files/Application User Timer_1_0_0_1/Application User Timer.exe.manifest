@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Application User Timer.exe" version="1.0.0.1" publicKeyToken="08525203414f608a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Application User Timer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Application User Timer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Application User Timer.exe" size="80824">
+      <assemblyIdentity name="Application User Timer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vSWe/MHTMHepGqUJR3IoaifE8SItwWeus7lI2tLYlIc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Application User Timer.exe.config" size="1253">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JvvOvLs8vKlruxcNxTxLY53zoc2DRMQhE/ujngA0+HU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hHHwLhD3LHmhbDB9sKFSCbCkUjNK4U3/na0oSPbZfpA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="timer.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hHHwLhD3LHmhbDB9sKFSCbCkUjNK4U3/na0oSPbZfpA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=JOSH-PC\Joshua" issuerKeyHash="d47256157d4672a0f2eb2b18a81efb64f38b5de6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>E3XGxUk883wx3yu9SznFS5GquhcD2JOCJb832UcGHF8=</DigestValue></Reference></SignedInfo><SignatureValue>Rttbo6pScCJMK24QVWwUnZzFo8JzmkVcUZHevLHKzOyDDmBfSwlGn3LcMneUaMV0jj3Dvy5Rru+x6GCD+/W86Qgwpn5yZe4ZrzHjfJ7Q3I2TkEjPwkJEEGr2Pcs2aw1WMY+AFxyibwUb6dmbJrA8r3s2EQz5Xn56v1CM9qGuSik=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uPA6e9gfgc6LSFFcpkth3+2G7COUaKoXupkfO6btJHlhA6vDZWBSzltuNZJbv13sXz7+T3dVlfi6Unnvp6hFFt/+6HcgR+x+O6X2lDako0DXyNDsxxtneVVBoc8OcZhKOkHP9TUwO5e4Q2hkgjJ86HogC0oypq9nqLSCFi6pqnE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5f1c0647d937bf258293d80317baaa914bc5394bbd2bdf317cf33c49c5c67513" Description="" Url=""><as:assemblyIdentity name="Application User Timer.exe" version="1.0.0.1" publicKeyToken="08525203414f608a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JOSH-PC\Joshua</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9K35LzNyb19ycN2xItsDMopyml58xU7ed1RXwod7oOo=</DigestValue></Reference></SignedInfo><SignatureValue>fSCIm+x9JCGy0hTC/96k/Z1HoWyzCiLDETddgEbOzfHXwDPLwyrgkI4GYqYiDv50bm9sKk7IQ64/SesnNZVT5p0JLMxolBfutj3ANR0GoBIwzMPvrZGtDEWoQLbdIRLdasfKJ/1lmcy8pRHiE6Nuz6RWYyOuf6+ip6oBLmtwiAg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uPA6e9gfgc6LSFFcpkth3+2G7COUaKoXupkfO6btJHlhA6vDZWBSzltuNZJbv13sXz7+T3dVlfi6Unnvp6hFFt/+6HcgR+x+O6X2lDako0DXyNDsxxtneVVBoc8OcZhKOkHP9TUwO5e4Q2hkgjJ86HogC0oypq9nqLSCFi6pqnE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQHztTZKqXtaVP+FoyxJp2jDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwASgBPAFMASAAtAFAAQwBcAEoAbwBzAGgAdQBhMB4XDTE4MDcyNjA0MTcyOVoXDTE5MDcyNjEwMTcyOVowJzElMCMGA1UEAx4cAEoATwBTAEgALQBQAEMAXABKAG8AcwBoAHUAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuPA6e9gfgc6LSFFcpkth3+2G7COUaKoXupkfO6btJHlhA6vDZWBSzltuNZJbv13sXz7+T3dVlfi6Unnvp6hFFt/+6HcgR+x+O6X2lDako0DXyNDsxxtneVVBoc8OcZhKOkHP9TUwO5e4Q2hkgjJ86HogC0oypq9nqLSCFi6pqnECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBAHdb4ot/P+rRCCV80YQGW/u9WlFub/2ieAdD9gdLNkqApeA384/ZgtbwUW9ZH1Xaz5+5kxjaHtYMEskq6bBrJLdi6IyWH0VQh7xIZarvoLFqxcV8K1lUX6wyhQKgsZUb8CmTeo+aOu9OXGIWUMDrLmN0NwG5yOPJ5CSrXa+2tmg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

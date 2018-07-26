@@ -1,0 +1,15 @@
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\appTimer2.Properties.Resources.resources
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\appTimer2.csproj.GenerateResource.cache
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\appTimer2.csproj.CoreCompileInputs.cache
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\bin\Debug\timer.ico
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\bin\Debug\Application User Timer.exe.config
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\bin\Debug\Application User Timer.exe
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\bin\Debug\Application User Timer.pdb
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\Application User Timer.exe
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\Application User Timer.pdb
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\bin\Debug\Application User Timer.exe.manifest
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\bin\Debug\Application User Timer.application
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\appTimer2.csprojAssemblyReference.cache
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\Application User Timer.TrustInfo.xml
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\Application User Timer.exe.manifest
+C:\Users\Joshua\source\repos\appTimer2\appTimer2\obj\Debug\Application User Timer.application
